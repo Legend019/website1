@@ -1,0 +1,26 @@
+.container {
+    width: 90%; /* Makes the container width relative to the viewport width */
+    max-width: 700px; /* Ensures that the container does not exceed 700px */
+    margin: 80px auto; /* Centers the container with a vertical margin */
+}
+
+@media (max-width: 960px) {
+    /* Adjusts the maximum width of the container as the screen size reduces */
+    .container {
+        max-width: 90%; /* Allows the container to shrink more fluidly */
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        max-width: 90%; /* Continues to allow the container to adjust to screen size */
+        margin: 60px auto; /* Slightly reduces the vertical margin */
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        max-width: 90%;
+        margin: 40px auto; /* Further reduces the vertical margin for smaller devices */
+    }
+}

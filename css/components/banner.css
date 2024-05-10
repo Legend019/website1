@@ -1,0 +1,36 @@
+.banner { 
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.5) 70%), url(../../images/banner.jfif);   
+    background-size: cover;     
+    background-position: center;
+    color: white;
+    padding: 100px 20px; /* Increased padding and added horizontal padding */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the content vertically within the banner */
+    height: 80vh; /* Sets a minimum height relative to the viewport */
+}
+
+.banner h1 {
+    font-size: calc(2.5rem + 1vw); /* Responsive font size */
+    margin: 0.5em 0; /* Adds space around the h1 */
+}
+
+.banner h2 {
+    font-size: calc(1.5rem + 1vw); /* Responsive font size */
+    font-weight: 300; /* 
+    margin: 0.25em 0; 
+}
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 70px 10px; 
+        height: 60vh; 
+    }
+    .banner h1 {
+        font-size: calc(2rem + 1vw); /* Smaller font size for smaller devices */
+    }
+    .banner h2 {
+        font-size: calc(1rem + 1vw); /* Smaller font size for smaller devices */
+    }
+}

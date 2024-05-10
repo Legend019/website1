@@ -1,0 +1,44 @@
+.contact-section {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 80%; /* Responsive width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+button.btn-blue {
+    background-color: #6D71DD;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button.btn-blue:hover {
+    background-color: #5a5fc9;
+}
